@@ -21,6 +21,7 @@ def create_training_data(i):
         class_num = categories.index(c)
         
         for img in os.listdir(path):
+            # Handling exception in this dataset because some images are broken in it
             try:
                 img_array = cv2.imread(os.path.join(path,img),cv2.IMREAD_GRAYSCALE)
                 new_img = cv2.resize(img_array,(IMG_SIZE,IMG_SIZE))
