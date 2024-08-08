@@ -7,8 +7,8 @@
 - For CNN I used Keras libaray by tensorflow. Then the images are normalized in range of 0 to 1.
 - Then the images are trained in CNN. The layers of CNN are:
 
-| Month    | Savings |
+| layers    | parameters |
 | -------- | ------- |
-| January  | $250    |
+| Conv2D  | input image size, kernel size,   |
 | February | $80     |
 | March    | $420    |
