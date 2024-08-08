@@ -29,4 +29,4 @@
 - Connected the callback to the named window.
 - Then displayed 2 windows to show image with seeds and watershed segments.
 
-![result]('./image.png')
+![result]('[./image.png](https://github.com/Vishwa2684/Computer-Vision/blob/main/image.png?raw=true)')
