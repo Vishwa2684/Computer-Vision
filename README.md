@@ -9,6 +9,10 @@
 
 | layers    | parameters |
 | -------- | ------- |
-| Conv2D  | input image size, kernel size,   |
-| February | $80     |
-| March    | $420    |
+| Conv2D  | input image size=(50,50), kernel size=3, activation function = ReLU, neurons = 64  |
+| MaxPool2D | pool size = (2,2)     |
+| Conv2D  |  kernel size=3, activation function = ReLU, neurons = 64  |
+| MaxPool2D | pool size = (2,2)     |
+|Flatten| None|
+|Dense| neurons = 64|
+|Dense| neurns = 1, activation function = Sigmoid|
