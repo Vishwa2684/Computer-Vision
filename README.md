@@ -7,8 +7,8 @@
 - For CNN I used Keras libaray by tensorflow. Then the images are normalized in range of 0 to 1.
 - Then the images are trained in CNN. The layers of CNN are:
 
-| layers    | parameters |
-| :-------- | :------- |
+| Layers    | Parameters |
+| :--------: | :-------: |
 | Conv2D  | input image size=(50,50), kernel size=3, activation function = ReLU, neurons = 64  |
 | MaxPool2D | pool size = (2,2)     |
 | Conv2D  |  kernel size=3, activation function = ReLU, neurons = 64  |
