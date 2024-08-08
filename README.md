@@ -28,3 +28,5 @@
 - Wrote a callback function to add seeds in the image window.
 - Connected the callback to the named window.
 - Then displayed 2 windows to show image with seeds and watershed segments.
+
+![result]('./image.png')
