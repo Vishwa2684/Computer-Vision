@@ -29,4 +29,4 @@
 - Connected the callback to the named window.
 - Then displayed 2 windows to show image with seeds and watershed segments.
 
-![image]('./image.png')
+![image](/image.png)
