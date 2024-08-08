@@ -20,4 +20,11 @@
 - The model yields 82% accuracy as it is a simple CNN.
 
 ## Image Segmentation
-- This project uses OpenCV to segment images.
+- Used OpenCV, Numpy, Matplotlib to segment images.
+- Read an image using OpenCV.
+- Created markers and segments for the image.
+- Pick a color map from matplotlib.
+- Append colors in a list. Initialized a current marker and marked to keep track of mouse clicks.
+- Wrote a callback function to add seeds in the image window.
+- Connected the callback to the named window.
+- Then displayed 2 windows to show image with seeds and watershed segments.
