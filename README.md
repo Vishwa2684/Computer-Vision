@@ -16,3 +16,5 @@
 |Flatten| None|
 |Dense| neurons = 64|
 |Dense| neurns = 1, activation function = Sigmoid|
+- The last dense layer is used to give output for the input image.
+- The model yields 82% accuracy as it is a simple CNN.
